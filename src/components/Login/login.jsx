@@ -4,7 +4,7 @@ import { Link, Redirect, Route } from 'react-router-dom';
 import LoginContext from '../../utils/LoginContext';
 
 function Login(){
-
+    console.log("Login");
     const [token, setToken] = useState("");
     const [redirect, setRedirect] = useState(false);
     const [email, setEmail] = useState('');
