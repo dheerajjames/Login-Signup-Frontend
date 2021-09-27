@@ -36,7 +36,7 @@ function Login(){
 
         try{
             let resData = await fetch(url, {
-                mode: 'no-cors',
+                mode: 'cors',
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(reqObj),
