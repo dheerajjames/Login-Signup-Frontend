@@ -9,8 +9,8 @@ function Register(){
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
 
-    const url = 'http://localhost:3002/users/signup';
-    // const url = 'https://todo-backend-multi-user.herokuapp.com/users/register';
+    // const url = 'http://localhost:3002/users/signup';
+    const url = 'https://login-signup-application.herokuapp.com/users/register';
 
 
     const handleChange = (event) => {
