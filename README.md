@@ -1,3 +1,11 @@
+# Login Signup Frontend
+Signup login functions with access to blogdetails
+
+# Features
+1. Register user
+2. Login user with
+3. Access to blogs
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

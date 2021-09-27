@@ -1,0 +1,34 @@
+.header {
+    background-color: #fafafa;
+    height: 60px;
+  }
+  .navContainer{
+      list-style: none;
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+  }
+  .header .navitem {
+    padding: 0 15px;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+  }
+  .header .navitem.active {
+    background: #000;
+    color: #fff;
+  }
+
+  .navLink{
+      padding-right: 10px;
+      border-right: 2px solid #eee;
+      text-decoration: none;
+      color: #000;
+  }
+  .navLink:hover{
+        padding: 10px;
+        background-color: #2bbcd6;
+        color: white;
+      
+}
