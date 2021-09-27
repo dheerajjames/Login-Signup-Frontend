@@ -10,7 +10,7 @@ function Register(){
     const [confirmPassword, setConfirmPassword] = useState('');
 
     // const url = 'http://localhost:3002/users/signup';
-    const url = 'https://login-signup-application.herokuapp.com/users/register';
+    const url = 'https://login-signup-application.herokuapp.com/users/signup';
 
 
     const handleChange = (event) => {
