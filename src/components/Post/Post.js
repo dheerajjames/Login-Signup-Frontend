@@ -16,7 +16,14 @@ export default function Post() {
   const { blogId } = useParams();
 
   useEffect(() => {
-      fetch(`${url}/${blogId}`).then((response) => {
+    const requestOptions = {
+      method: 'GET',
+      mode: 'cors',
+      headers: {
+         'Content-Type': 'application/json'
+      },
+   };
+      fetch(`${url}/${blogId}`, requestOptions).then((response) => {
           return response.json()
        }).then((data) => {
           //  console.log(data.data)
