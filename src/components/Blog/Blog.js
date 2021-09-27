@@ -11,7 +11,14 @@ export default function Blog() {
     const [blog, setBlog] = useState([]);
 
     useEffect(() => {
-        fetch(url).then((response) => {
+      const requestOptions = {
+        method: 'GET',
+        mode: 'cors',
+        headers: {
+           'Content-Type': 'application/json'
+        },
+     };
+        fetch(url, requestOptions).then((response) => {
             return response.json()
          }).then((data) => {
             //  console.log(data.data)
