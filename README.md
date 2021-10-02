@@ -11,8 +11,7 @@ A simple project which includes authentication during login and signup and is in
   Clone the project
 
 ```bash
-git clone https://github.com/dheerajjames/Login-Signup-Backend.git
-```
+git clone https://github.com/dheerajjames/Login-Signup-frontend.git
  Then install all the dependencies
  ```bash
  npm install
