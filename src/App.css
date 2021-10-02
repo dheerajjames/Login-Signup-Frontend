@@ -1,6 +1,12 @@
+
 .App {
   text-align: center;
+  /* background-color: cornsilk; */
+    background-image: url("./black.jpg");
+    background-size: cover;
+  height: 100%;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -34,5 +40,19 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 769px){
+.App{
+  width:835px;
+  height: 1000px;
+}
+}
+@media(max-width: 575.98px){
+  .App{
+    width:835px;
+    height: 1500px;
   }
 }

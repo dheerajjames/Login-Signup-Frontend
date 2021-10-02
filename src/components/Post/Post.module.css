@@ -1,37 +1,72 @@
 .container {
-    margin-left:35%;
+    margin-left:0%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50%;
+    width: 80%;
+    color: white;
+    padding: 150px;
+}
+.mainPost{
+    font-family: 'PT Serif', serif;
+    font-size: 1.5rem;
 }
 .aside{
-    width: 500px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: flex-end;
-    padding-left: 200px;
+    padding-left: 180px;
+}
+.image{
+    width:700px;
 }
 .asideItem{
+    margin-top: 20px;
+    color: white;
     display: flex;
     justify-content: center;
     align-content: center;
     width: 100%;
-    box-shadow: 0 1px 7px rgba(0,0,0,0.5);
-
+    padding: 20px;
+    box-shadow: 0 1px 7px rgba(223, 219, 219, 0.603);
+    /* border-radius: 15px 30px 15px; */
+    border-radius: 20%;
 }
+.asideItem li:hover{
+    padding:10px ;
+    transition: 500ms ease-out; 
+}
+.asideItem li{
+    color: white;
+}
+/* .asideItem:hover{
+    background-color:  white;
+    color: black;
+} */
 
 @media (max-width: 769px){
     .container{
+        height:50%;
         display: flex;
         flex-direction: column;
-        margin-left:20%;
+        margin-bottom:0%;
+        padding-left: 50px;
 
     }
+    .image{
+        width: 300px;
+    }
     .aside{
+        display: flex;
+        justify-content: center;
         padding-left: 20px;
         width: 100%;
+    }
+    .asideItem{
+        width:20%;
+        margin:auto;
     }
 }
 
@@ -39,7 +74,11 @@
     .container{
         display: flex;
         flex-direction: column;
-        margin-left:10%;
+        margin-left:20%;
+        font-size: 0.6rem;
+        padding-left: 10%;
+        justify-content: center;
+        align-items: center;
     }
     .mainContent{
         margin-left:25px;

@@ -52,6 +52,6 @@ export default function Blog() {
       );
     });
   
-    return <div className="blog">{posts}</div>;
+    return <div className={styles.blog}>{posts}</div>;
   }
   

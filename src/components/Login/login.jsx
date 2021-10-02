@@ -50,6 +50,10 @@ function Login(){
                 setLogin(true);
                 setRedirect(true);
             }
+            else{
+            alert("User Cannot be Logged In. ");
+            setRedirect(false);
+            }
 
         }catch(err){
             console.log(err);

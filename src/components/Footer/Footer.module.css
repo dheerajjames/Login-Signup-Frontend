@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    padding-top: 0.1em;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color:black !important;
+    color: white ;
+}
+
+@media(max-width: 768px){
+    .footer{
+        bottom:0;
+        position: fixed;
+    }
+}
